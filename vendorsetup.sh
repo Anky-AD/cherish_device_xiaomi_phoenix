@@ -16,4 +16,7 @@ git clone https://github.com/ShapeShiftOS/android_vendor_qcom_opensource_package
 rm -rf packages/apps/Bluetooth
 git clone https://github.com/ShapeShiftOS/android_packages_apps_Bluetooth.git packages/apps/Bluetooth
 git clone https://github.com/kdrag0n/proton-clang.git --depth=1 prebuilts/clang/host/linux-x86/clang-proton
+git clone https://github.com/redcliff-op/android_kernel_xiaomi_phoenix.git -b R2 --depth=1 kernel/xiaomi/phoenix
+git clone https://github.com/OctaviOS-Devices/vendor_xiaomi_phoenix.git -b oss vendor/xiaomi/phoenix
+git clone https://github.com/OctaviOS-Devices/vendor_xiaomi_miuicamera.git vendor/xiaomi/miuicamera
 
