@@ -5,10 +5,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/octavi_phoenix.mk
+    $(LOCAL_DIR)/cherish_phoenix.mk
 
 COMMON_LUNCH_CHOICES := \
-    octavi_phoenix-user \
-    octavi_phoenix-userdebug \
-    octavi_phoenix-eng
+    cherish_phoenix-user \
+    cherish_phoenix-userdebug \
+    cherish_phoenix-eng
 
