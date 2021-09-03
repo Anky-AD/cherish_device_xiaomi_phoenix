@@ -22,6 +22,9 @@ TARGET_GAPPS_ARCH := arm64
 TARGET_INCLUDE_STOCK_ARCORE := true
 WITH_GMS := true
 
+# Lawnchair Launcher
+USE_LAWNCHAIR := true
+
 # Official
 CHERISH_BUILD_TYPE := OFFICIAL
 
