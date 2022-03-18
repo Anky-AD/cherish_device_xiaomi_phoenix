@@ -6,11 +6,11 @@
 
 $(call inherit-product, device/xiaomi/phoenix/device.mk)
 
-# Inherit some common derpfest stuff.
-$(call inherit-product, vendor/derp/config/common_full_phone.mk)
+# Inherit some common cherishfest stuff.
+$(call inherit-product, vendor/cherish/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := derp_phoenix
+PRODUCT_NAME := cherish_phoenix
 PRODUCT_DEVICE := phoenix
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := POCO X2
@@ -20,9 +20,16 @@ PRODUCT_MANUFACTURER := Xiaomi
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_GAPPS := true
 TARGET_GAPPS_ARCH := arm64
+WITH_GMS := true
 
-# derpOS Properties
-DERP_BUILDTYPE := Official
+# Official
+CHERISH_BUILD_TYPE := OFFICIAL
+
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.cherish.maintainer=Anky
+
+# cherishOS Properties
+cherish_BUILDTYPE := Official
 
 BUILD_FINGERPRINT := POCO/phoenixin/phoenixin:11/RKQ1.200826.002/V12.1.3.0.RGHINXM:user/release-keys
 

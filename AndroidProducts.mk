@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_phoenix.mk
+    $(LOCAL_DIR)/cherish_phoenix.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_phoenix-user \
-    derp_phoenix-userdebug \
-    derp_phoenix-eng
+    cherish_phoenix-user \
+    cherish_phoenix-userdebug \
+    cherish_phoenix-eng
